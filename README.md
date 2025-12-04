@@ -26,13 +26,15 @@ const { firstname, lastname, age: employeeAge } = props;
 ```
 -This makes the component cleaner and easier to read.
 
+---
 ### ✅ 3. Using the Spread Operator
 
 - I learned how to pass all object properties as props using the spread operator.
 
 -Example:
-
+```
 <Employee key={employee.employeeId} {...employee} />
+```
 
 - This helps when passing multiple values without writing each prop manually.
 
